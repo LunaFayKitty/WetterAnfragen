@@ -1,0 +1,49 @@
+body {
+  margin: 3em;
+  background: linear-gradient(
+    to bottom right,
+    #ff00009d,
+    #ff8d36af,
+    rgba(255, 222, 35, 0.445)
+  );
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.inputcontainer {
+  margin: 5em;
+}
+#region {
+  font-size: 1.5rem;
+  padding: 15px;
+  background-color: white;
+  border: solid rgb(50, 139, 255);
+  width: 50%;
+}
+.button {
+  padding: 15px;
+  font-size: 1.5rem;
+  background-color: blue;
+  color: white;
+  width: 20%;
+}
+.weather {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  margin: 10px 0;
+  gap: 1em;
+}
+.cards {
+  border: solid rgb(105, 170, 255);
+  border-radius: 50%;
+  background-color: rgb(234, 243, 255);
+  padding: 1em;
+  font-size: larger;
+  text-align: center;
+  gap: 1em;
+}
+h2 {
+  font-size: 2rem;
+  color: rgb(3, 3, 133);
+  text-decoration: underline;
+}
